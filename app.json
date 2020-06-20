@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "healthcare-app",
+    "name": "HealthCare App",
     "sdkVersion": "37.0.0",
     "slug": "healthcare-app",
     "platforms": [
@@ -17,7 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.aegis.healthcare",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.aegis.healthcare",
+      "versionCode": 1
     }
   }
 }
