@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View, TouchableOpacity, StatusBar } from 'react-native';
-import logo from '../assets/logo.png';
+import logo from '../assets/heartlineBlue.png';
 
 // importing fonts 
 import { useFonts } from '@use-expo/font';
@@ -98,6 +98,5 @@ const styles = StyleSheet.create({
   btn: {
     marginTop: 20
   }
-
 
 });
